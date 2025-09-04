@@ -60,13 +60,13 @@ Figures are saved in `./figures/` and include:
 
 **4. Classifier performance (example from script output):**  
 ```
-Data shape: (..., ...) Labels: [...]
-Standardized shapes: (..., ...) (..., ...)
-Top eigenvalues (first 6): [...]
-Cumulative variance (first 2 PCs): [...]
-PCA (sklearn) - Test accuracy: ...
-LDA (from scratch) - Test accuracy: ...
-LDA (sklearn) - Test accuracy: ...
+Data shape: (178, 13) Labels: [0 1 2]
+Standardized shapes: (124, 13) (54, 13)
+Top eigenvalues (first 6): [4.84274532 2.41602459 1.54845825 0.96120438 0.84166161 0.6620634]
+Cumulative variance (first 2 PCs): [0.36951469 0.55386396]
+PCA (sklearn) - Test accuracy: 0.9259
+LDA (from scratch) - Test accuracy: 1.0
+LDA (sklearn) - Test accuracy: 1.0
 ```
 
 **5. Visual evidence:**  
